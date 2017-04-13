@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07277A3C4D31E8317C182497 /* libPods-CRDeviceGUID.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A8AF5CDA5F8C746ECBF1B4 /* libPods-CRDeviceGUID.a */; };
+		7518BE691E9F78DB00322FD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518BE681E9F78DB00322FD6 /* main.m */; };
+		7518BE6C1E9F78DB00322FD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518BE6B1E9F78DB00322FD6 /* AppDelegate.m */; };
+		7518BE6F1E9F78DB00322FD6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518BE6E1E9F78DB00322FD6 /* ViewController.m */; };
+		7518BE721E9F78DB00322FD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7518BE701E9F78DB00322FD6 /* Main.storyboard */; };
+		7518BE741E9F78DB00322FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7518BE731E9F78DB00322FD6 /* Assets.xcassets */; };
+		7518BE771E9F78DB00322FD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7518BE751E9F78DB00322FD6 /* LaunchScreen.storyboard */; };
+		7518BE821E9F78DB00322FD6 /* CRDeviceGUIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518BE811E9F78DB00322FD6 /* CRDeviceGUIDTests.m */; };
+		7518BE8D1E9F78DB00322FD6 /* CRDeviceGUIDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518BE8C1E9F78DB00322FD6 /* CRDeviceGUIDUITests.m */; };
+		7518BE9D1E9F7B8200322FD6 /* CRGUIDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518BE9C1E9F7B8200322FD6 /* CRGUIDGenerator.m */; };
+		7518BEA01E9F820700322FD6 /* UIDevice+GUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518BE9F1E9F820700322FD6 /* UIDevice+GUID.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7518BE7E1E9F78DB00322FD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7518BE5C1E9F78DB00322FD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7518BE631E9F78DB00322FD6;
+			remoteInfo = CRDeviceGUID;
+		};
+		7518BE891E9F78DB00322FD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7518BE5C1E9F78DB00322FD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7518BE631E9F78DB00322FD6;
+			remoteInfo = CRDeviceGUID;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39A8AF5CDA5F8C746ECBF1B4 /* libPods-CRDeviceGUID.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRDeviceGUID.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6832D4D6D25537D57896635B /* Pods-CRDeviceGUID.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRDeviceGUID.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CRDeviceGUID/Pods-CRDeviceGUID.debug.xcconfig"; sourceTree = "<group>"; };
+		7518BE641E9F78DB00322FD6 /* CRDeviceGUID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRDeviceGUID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7518BE681E9F78DB00322FD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7518BE6A1E9F78DB00322FD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7518BE6B1E9F78DB00322FD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7518BE6D1E9F78DB00322FD6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7518BE6E1E9F78DB00322FD6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7518BE711E9F78DB00322FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7518BE731E9F78DB00322FD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7518BE761E9F78DB00322FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7518BE781E9F78DB00322FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7518BE7D1E9F78DB00322FD6 /* CRDeviceGUIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRDeviceGUIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7518BE811E9F78DB00322FD6 /* CRDeviceGUIDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRDeviceGUIDTests.m; sourceTree = "<group>"; };
+		7518BE831E9F78DB00322FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7518BE881E9F78DB00322FD6 /* CRDeviceGUIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRDeviceGUIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7518BE8C1E9F78DB00322FD6 /* CRDeviceGUIDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRDeviceGUIDUITests.m; sourceTree = "<group>"; };
+		7518BE8E1E9F78DB00322FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7518BE9B1E9F7B8200322FD6 /* CRGUIDGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRGUIDGenerator.h; sourceTree = "<group>"; };
+		7518BE9C1E9F7B8200322FD6 /* CRGUIDGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRGUIDGenerator.m; sourceTree = "<group>"; };
+		7518BE9E1E9F820700322FD6 /* UIDevice+GUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+GUID.h"; sourceTree = "<group>"; };
+		7518BE9F1E9F820700322FD6 /* UIDevice+GUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+GUID.m"; sourceTree = "<group>"; };
+		7589E2E51E9F8694002762E8 /* CRDeviceGUID.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CRDeviceGUID.entitlements; sourceTree = "<group>"; };
+		BC65527DCDDCAED4FD3C86D4 /* Pods-CRDeviceGUID.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRDeviceGUID.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRDeviceGUID/Pods-CRDeviceGUID.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7518BE611E9F78DB00322FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07277A3C4D31E8317C182497 /* libPods-CRDeviceGUID.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7518BE7A1E9F78DB00322FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7518BE851E9F78DB00322FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61A72C7A163BCDBA7AC88C71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6832D4D6D25537D57896635B /* Pods-CRDeviceGUID.debug.xcconfig */,
+				BC65527DCDDCAED4FD3C86D4 /* Pods-CRDeviceGUID.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		67A9299508206601E3F974C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39A8AF5CDA5F8C746ECBF1B4 /* libPods-CRDeviceGUID.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7518BE5B1E9F78DB00322FD6 = {
+			isa = PBXGroup;
+			children = (
+				7518BE661E9F78DB00322FD6 /* CRDeviceGUID */,
+				7518BE801E9F78DB00322FD6 /* CRDeviceGUIDTests */,
+				7518BE8B1E9F78DB00322FD6 /* CRDeviceGUIDUITests */,
+				7518BE651E9F78DB00322FD6 /* Products */,
+				61A72C7A163BCDBA7AC88C71 /* Pods */,
+				67A9299508206601E3F974C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7518BE651E9F78DB00322FD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7518BE641E9F78DB00322FD6 /* CRDeviceGUID.app */,
+				7518BE7D1E9F78DB00322FD6 /* CRDeviceGUIDTests.xctest */,
+				7518BE881E9F78DB00322FD6 /* CRDeviceGUIDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7518BE661E9F78DB00322FD6 /* CRDeviceGUID */ = {
+			isa = PBXGroup;
+			children = (
+				7589E2E51E9F8694002762E8 /* CRDeviceGUID.entitlements */,
+				7518BE9A1E9F7B6500322FD6 /* CRDeviceGUID */,
+				7518BE6A1E9F78DB00322FD6 /* AppDelegate.h */,
+				7518BE6B1E9F78DB00322FD6 /* AppDelegate.m */,
+				7518BE6D1E9F78DB00322FD6 /* ViewController.h */,
+				7518BE6E1E9F78DB00322FD6 /* ViewController.m */,
+				7518BE701E9F78DB00322FD6 /* Main.storyboard */,
+				7518BE731E9F78DB00322FD6 /* Assets.xcassets */,
+				7518BE751E9F78DB00322FD6 /* LaunchScreen.storyboard */,
+				7518BE781E9F78DB00322FD6 /* Info.plist */,
+				7518BE671E9F78DB00322FD6 /* Supporting Files */,
+			);
+			path = CRDeviceGUID;
+			sourceTree = "<group>";
+		};
+		7518BE671E9F78DB00322FD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7518BE681E9F78DB00322FD6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7518BE801E9F78DB00322FD6 /* CRDeviceGUIDTests */ = {
+			isa = PBXGroup;
+			children = (
+				7518BE811E9F78DB00322FD6 /* CRDeviceGUIDTests.m */,
+				7518BE831E9F78DB00322FD6 /* Info.plist */,
+			);
+			path = CRDeviceGUIDTests;
+			sourceTree = "<group>";
+		};
+		7518BE8B1E9F78DB00322FD6 /* CRDeviceGUIDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7518BE8C1E9F78DB00322FD6 /* CRDeviceGUIDUITests.m */,
+				7518BE8E1E9F78DB00322FD6 /* Info.plist */,
+			);
+			path = CRDeviceGUIDUITests;
+			sourceTree = "<group>";
+		};
+		7518BE9A1E9F7B6500322FD6 /* CRDeviceGUID */ = {
+			isa = PBXGroup;
+			children = (
+				7518BE9B1E9F7B8200322FD6 /* CRGUIDGenerator.h */,
+				7518BE9C1E9F7B8200322FD6 /* CRGUIDGenerator.m */,
+				7518BE9E1E9F820700322FD6 /* UIDevice+GUID.h */,
+				7518BE9F1E9F820700322FD6 /* UIDevice+GUID.m */,
+			);
+			path = CRDeviceGUID;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7518BE631E9F78DB00322FD6 /* CRDeviceGUID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7518BE911E9F78DB00322FD6 /* Build configuration list for PBXNativeTarget "CRDeviceGUID" */;
+			buildPhases = (
+				05811E0BD87D6A1ADBFB996C /* [CP] Check Pods Manifest.lock */,
+				7518BE601E9F78DB00322FD6 /* Sources */,
+				7518BE611E9F78DB00322FD6 /* Frameworks */,
+				7518BE621E9F78DB00322FD6 /* Resources */,
+				E6473E2B8CD28290B83B1534 /* [CP] Embed Pods Frameworks */,
+				2997AB345C4DD7025C577EA8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRDeviceGUID;
+			productName = CRDeviceGUID;
+			productReference = 7518BE641E9F78DB00322FD6 /* CRDeviceGUID.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7518BE7C1E9F78DB00322FD6 /* CRDeviceGUIDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7518BE941E9F78DB00322FD6 /* Build configuration list for PBXNativeTarget "CRDeviceGUIDTests" */;
+			buildPhases = (
+				7518BE791E9F78DB00322FD6 /* Sources */,
+				7518BE7A1E9F78DB00322FD6 /* Frameworks */,
+				7518BE7B1E9F78DB00322FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7518BE7F1E9F78DB00322FD6 /* PBXTargetDependency */,
+			);
+			name = CRDeviceGUIDTests;
+			productName = CRDeviceGUIDTests;
+			productReference = 7518BE7D1E9F78DB00322FD6 /* CRDeviceGUIDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7518BE871E9F78DB00322FD6 /* CRDeviceGUIDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7518BE971E9F78DB00322FD6 /* Build configuration list for PBXNativeTarget "CRDeviceGUIDUITests" */;
+			buildPhases = (
+				7518BE841E9F78DB00322FD6 /* Sources */,
+				7518BE851E9F78DB00322FD6 /* Frameworks */,
+				7518BE861E9F78DB00322FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7518BE8A1E9F78DB00322FD6 /* PBXTargetDependency */,
+			);
+			name = CRDeviceGUIDUITests;
+			productName = CRDeviceGUIDUITests;
+			productReference = 7518BE881E9F78DB00322FD6 /* CRDeviceGUIDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7518BE5C1E9F78DB00322FD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Corotata;
+				TargetAttributes = {
+					7518BE631E9F78DB00322FD6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TEFU4H9RWZ;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					7518BE7C1E9F78DB00322FD6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TEFU4H9RWZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7518BE631E9F78DB00322FD6;
+					};
+					7518BE871E9F78DB00322FD6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TEFU4H9RWZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7518BE631E9F78DB00322FD6;
+					};
+				};
+			};
+			buildConfigurationList = 7518BE5F1E9F78DB00322FD6 /* Build configuration list for PBXProject "CRDeviceGUID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7518BE5B1E9F78DB00322FD6;
+			productRefGroup = 7518BE651E9F78DB00322FD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7518BE631E9F78DB00322FD6 /* CRDeviceGUID */,
+				7518BE7C1E9F78DB00322FD6 /* CRDeviceGUIDTests */,
+				7518BE871E9F78DB00322FD6 /* CRDeviceGUIDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7518BE621E9F78DB00322FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7518BE771E9F78DB00322FD6 /* LaunchScreen.storyboard in Resources */,
+				7518BE741E9F78DB00322FD6 /* Assets.xcassets in Resources */,
+				7518BE721E9F78DB00322FD6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7518BE7B1E9F78DB00322FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7518BE861E9F78DB00322FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05811E0BD87D6A1ADBFB996C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2997AB345C4DD7025C577EA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRDeviceGUID/Pods-CRDeviceGUID-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6473E2B8CD28290B83B1534 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRDeviceGUID/Pods-CRDeviceGUID-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7518BE601E9F78DB00322FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7518BE6F1E9F78DB00322FD6 /* ViewController.m in Sources */,
+				7518BEA01E9F820700322FD6 /* UIDevice+GUID.m in Sources */,
+				7518BE9D1E9F7B8200322FD6 /* CRGUIDGenerator.m in Sources */,
+				7518BE6C1E9F78DB00322FD6 /* AppDelegate.m in Sources */,
+				7518BE691E9F78DB00322FD6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7518BE791E9F78DB00322FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7518BE821E9F78DB00322FD6 /* CRDeviceGUIDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7518BE841E9F78DB00322FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7518BE8D1E9F78DB00322FD6 /* CRDeviceGUIDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7518BE7F1E9F78DB00322FD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7518BE631E9F78DB00322FD6 /* CRDeviceGUID */;
+			targetProxy = 7518BE7E1E9F78DB00322FD6 /* PBXContainerItemProxy */;
+		};
+		7518BE8A1E9F78DB00322FD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7518BE631E9F78DB00322FD6 /* CRDeviceGUID */;
+			targetProxy = 7518BE891E9F78DB00322FD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7518BE701E9F78DB00322FD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7518BE711E9F78DB00322FD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7518BE751E9F78DB00322FD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7518BE761E9F78DB00322FD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7518BE8F1E9F78DB00322FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7518BE901E9F78DB00322FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7518BE921E9F78DB00322FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6832D4D6D25537D57896635B /* Pods-CRDeviceGUID.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CRDeviceGUID/CRDeviceGUID.entitlements;
+				DEVELOPMENT_TEAM = TEFU4H9RWZ;
+				INFOPLIST_FILE = CRDeviceGUID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.corotata.CRDeviceGUID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7518BE931E9F78DB00322FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC65527DCDDCAED4FD3C86D4 /* Pods-CRDeviceGUID.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CRDeviceGUID/CRDeviceGUID.entitlements;
+				DEVELOPMENT_TEAM = TEFU4H9RWZ;
+				INFOPLIST_FILE = CRDeviceGUID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.corotata.CRDeviceGUID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7518BE951E9F78DB00322FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TEFU4H9RWZ;
+				INFOPLIST_FILE = CRDeviceGUIDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = corotata.CRDeviceGUIDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRDeviceGUID.app/CRDeviceGUID";
+			};
+			name = Debug;
+		};
+		7518BE961E9F78DB00322FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TEFU4H9RWZ;
+				INFOPLIST_FILE = CRDeviceGUIDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = corotata.CRDeviceGUIDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRDeviceGUID.app/CRDeviceGUID";
+			};
+			name = Release;
+		};
+		7518BE981E9F78DB00322FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TEFU4H9RWZ;
+				INFOPLIST_FILE = CRDeviceGUIDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = corotata.CRDeviceGUIDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CRDeviceGUID;
+			};
+			name = Debug;
+		};
+		7518BE991E9F78DB00322FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TEFU4H9RWZ;
+				INFOPLIST_FILE = CRDeviceGUIDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = corotata.CRDeviceGUIDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CRDeviceGUID;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7518BE5F1E9F78DB00322FD6 /* Build configuration list for PBXProject "CRDeviceGUID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7518BE8F1E9F78DB00322FD6 /* Debug */,
+				7518BE901E9F78DB00322FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7518BE911E9F78DB00322FD6 /* Build configuration list for PBXNativeTarget "CRDeviceGUID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7518BE921E9F78DB00322FD6 /* Debug */,
+				7518BE931E9F78DB00322FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7518BE941E9F78DB00322FD6 /* Build configuration list for PBXNativeTarget "CRDeviceGUIDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7518BE951E9F78DB00322FD6 /* Debug */,
+				7518BE961E9F78DB00322FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7518BE971E9F78DB00322FD6 /* Build configuration list for PBXNativeTarget "CRDeviceGUIDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7518BE981E9F78DB00322FD6 /* Debug */,
+				7518BE991E9F78DB00322FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7518BE5C1E9F78DB00322FD6 /* Project object */;
+}

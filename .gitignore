@@ -1,0 +1,7 @@
+CRDeviceGUID.xcodeproj/xcuserdata/
+CRDeviceGUID.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+CRDeviceGUID.xcodeproj/project.xcworkspace/xcuserdata/
