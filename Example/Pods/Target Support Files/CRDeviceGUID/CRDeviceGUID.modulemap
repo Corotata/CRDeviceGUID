@@ -1,0 +1,6 @@
+framework module CRDeviceGUID {
+  umbrella header "CRDeviceGUID-umbrella.h"
+
+  export *
+  module * { export * }
+}

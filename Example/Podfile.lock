@@ -1,0 +1,19 @@
+PODS:
+  - CRDeviceGUID (1.0.1):
+    - SSKeychain
+  - SSKeychain (1.4.1)
+
+DEPENDENCIES:
+  - CRDeviceGUID (from `../`)
+
+EXTERNAL SOURCES:
+  CRDeviceGUID:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CRDeviceGUID: ae744e94fbb02811e672b671a9834d654c32f1fe
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
+
+PODFILE CHECKSUM: e7eccb0995152ba83a773c662706a59e90d521b9
+
+COCOAPODS: 1.2.1

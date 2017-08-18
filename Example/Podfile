@@ -1,0 +1,16 @@
+# 公有仓库
+source 'https://github.com/CocoaPods/Specs.git'
+## 私有仓库
+source 'https://git.nya.pics/Ligo/LigoPods.git'
+
+use_frameworks!
+
+target 'CRDeviceGUID_Example' do
+  pod 'CRDeviceGUID', :path => '../'
+
+  target 'CRDeviceGUID_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

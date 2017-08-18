@@ -1,0 +1,6 @@
+framework module Pods_CRDeviceGUID_Tests {
+  umbrella header "Pods-CRDeviceGUID_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

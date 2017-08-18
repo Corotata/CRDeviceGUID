@@ -1,1 +1,1 @@
-pod trunk push CRDeviceGUID.podspec --verbose --allow-warnings
+pod repo push LigoPods CRDeviceGUID.podspec --verbose --allow-warnings --use-libraries
